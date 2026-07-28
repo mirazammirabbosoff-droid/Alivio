@@ -1,7 +1,7 @@
 
 const moodSelect = document.getElementById('mood-select');
 
-    // Прослушивание изменения выбора в выпадающем списке
+    
     moodSelect.addEventListener('change', function() {
       const selectedMood = moodSelect.value;
 
