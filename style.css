@@ -296,7 +296,7 @@ video{
 .h1 {
     font-size: 36px;
     color: #0c6a4b;
-    margin: 0 0 15px 0;
+    margin: 85 px 0 15px 0;
     font-family: Georgia, serif;
 }
 
@@ -355,21 +355,6 @@ input, select {
     align-items: center;
     margin-top: 30px;
     gap: 20px;
-}
-
-.submit-btn {
-    background-color: #009368;
-    color: #ffffff;
-    border: none;
-    padding: 12px 24px;
-    font-size: 14px;
-    font-weight: bold;
-    border-radius: 4px;
-    cursor: pointer;
-} 
-
-.submit-btn:hover {
-    background-color: #007c57;
 }
 
 .privacy-text {
