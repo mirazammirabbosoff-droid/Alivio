@@ -3,10 +3,20 @@ const moodSelect = document.getElementById('mood-select');
 
     
     moodSelect.addEventListener('change', function() {
-      const selectedMood = moodSelect.value;
+      
 
-      if (selectedMood === 'sad') {
-        alert('just be happy bro');
+      
+    });
+
+function ConsoleWr() {
+  console.log()
+}
+function ConsoleWr(submit) {
+  
+  const selectedMood = moodSelect.value;
+
+  if(selectedMood === 'sad') {
+        alert('just be happ bro');
       } else if (selectedMood === 'happy') {
         alert('keep smiling bro!');
       } else if (selectedMood === 'angry') {
@@ -16,4 +26,4 @@ const moodSelect = document.getElementById('mood-select');
       } else if (selectedMood === 'kind') {
         alert('you are awesome bro!');
       }
-    });
+}  
